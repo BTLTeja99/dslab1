@@ -33,3 +33,16 @@ int main ()
     printf ("\t%d",arr[i]);
     return 0;
 }
+out put :
+enter the size of array =
+5
+enter the elements of array ......
+ enter the 1 element
+ 6
+ enter the 2 element3
+ enter the 3 element
+ 3
+ enter the 4 element4
+ enter the 5 element
+ 6
+ Sorted array is .....	3	3	4	6	6
