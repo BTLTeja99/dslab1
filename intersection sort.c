@@ -16,13 +16,14 @@ void  main()
     { 
         key = arr[i];
         j=i-1;
-    }
-       while (key <arr[j]&&j>=0)
+    
+      while (key <arr[j]&&j>=0)
        {
            arr[j+1]=arr[j];
            j=j-1;
        }
-       arr [i+j]=key;
+       arr [j+1]=key;
+   }
         printf("\n intersection  array is ......");
     for (j=0;j<n;j++)
     printf ("\t%d",arr[j]);
